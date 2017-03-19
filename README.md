@@ -24,3 +24,5 @@ In Terminal, go inside the folder "interactive-adventure-game-tool" (mine is ren
 To run interactive story GUI, go into story1 folder (which is a copy of the "master-story" folder) and in Terminal enter:
 
     npm start
+
+Follow https://github.com/alexa/interactive-adventure-game-tool
