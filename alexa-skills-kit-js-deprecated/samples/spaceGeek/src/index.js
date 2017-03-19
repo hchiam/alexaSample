@@ -39,7 +39,8 @@ var FACTS = [
     "A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.",
     "Saturn radiates two and a half times more energy into space than it receives from the sun.",
     "The temperature inside the Sun can reach 15 million degrees Celsius.",
-    "The Moon is moving approximately 3.8 cm away from our planet every year."
+    "The Moon is moving approximately 3.8 cm away from our planet every year.",
+    "One fact is that I can tell you facts."
 ];
 
 /**
@@ -108,7 +109,7 @@ function handleNewFactRequest(response) {
     var randomFact = FACTS[factIndex];
 
     // Create speech output
-    var speechOutput = "Here's your fact: " + randomFact;
+    var speechOutput = "Hello John, I have a fact for you: " + randomFact;
     var cardTitle = "Your Fact";
     response.tellWithCard(speechOutput, cardTitle, speechOutput);
 }
